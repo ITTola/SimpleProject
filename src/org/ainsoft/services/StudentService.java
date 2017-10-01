@@ -14,5 +14,6 @@ import org.ainsoft.model.Student;
  */
 public interface StudentService {
     java.util.List<Student> getStudents()throws SQLException;
+    Student getStudentById(int studentId)throws SQLException;
     Student getStudentByName(String studentName)throws SQLException;
 }
