@@ -70,5 +70,10 @@ public class Student {
     public void setStudentAddress(String studentAddress) {
         this.studentAddress = studentAddress;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" + "studentId=" + studentId + ", studentName=" + studentName + ", studentGender=" + studentGender + ", studentAddress=" + studentAddress + '}';
+    }
     
 }
